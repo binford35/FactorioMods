@@ -1,0 +1,74 @@
+-------------------------------------
+Pollution Containment & Control Pack
+-------------------------------------
+ - New Module: Pollution Capture 
+	Description: PCC Module - Allows factories, chemical plants, oil refineries, etc. to capture pollution
+	Recipe: microchips, pipes, storage tank, iron plates
+ - New Item: Pollution Barrel
+ - New Fluid/Gas: Pollution
+ - New Item (building): Drilling Rig
+	Description: Digs disposal well to store gas
+				 Needs pipes and iron plates to keep drilling the well deeper, to allow for more gas storage
+	Recipe: iron plates, pipes, steel
+ - New Module: Active Charcoal Filtering
+	Description: PCC Module
+				 Adds two slots on the building for charcoal (Activated and Satiated)
+				 Building will produce Satiated Charcoal once the Activated Charcoal is used up
+				 This method will be somewhere around 95% effective
+	Recipe: microchips, iron plates, pipes, storage tank
+ - New Item (building): Charcoal Boiler
+	Description: Uses charcoal to boil water, less pollution
+	Recipe: pipes, iron plates, stone bricks
+ - New Item (building): Charcoal Furnace
+	Description: Furnace that makes charcoal from wood.
+	Recipe: Stone bricks, Iron plates
+ - New Item (building): Charcoal Reactivation Plant
+	Description: Requires high energy usage and produces large amount of heat
+	Recipe: storage tanks, iron plates, microchips, advanced microchips, copper plates, plastic
+ - New Item (resource): Charcoal
+	Description: Made from putting wood in charcoal boilers or furnaces
+ - New Item: Activated Charcoal
+	Description: Made from processing Charcoal in a Charcoal Reactivation Plant
+ - New Item (building): Air Scrubber
+	Description: Needs Activated Charcoal and Electricity, filters either the air around it or piped in air or barrels of pollution and cleans it at a certain rate
+				 Satiated Charcoal and Pollution Waste is produced and will need to be removed (waste) periodically and reactivated (charcoal)
+				 Recipe: pipes, iron plates: plastic, microchips, advanced microchips, copper plates
+ - New item: Satiated Charcoal
+	Description: Produced as a result of air scrubbing or buildings with the pollution control modules
+ - New Module: Electrostatic Precipitator
+	Description: PCC Module
+				 Adds a slot on the building for an ESP to be installed
+				 Adds a slot for waste produced by the ESP
+				 This should be about 99% effective
+				 Increases electricity use by 25%
+	Recipe: Advanced microchips, blue chips, Iron plates, steel, accumulators, pipes
+ - New Module: Baghouse
+	Description: PCC Module
+				 Only available to be used in electric furnaces
+				 Adds a slot for synthetic materials in electric furnaces, which remove 99% of pollution
+				 Synthetic Materials are slowly used up
+				 Adds another slot for waste produced by the filter, this waste should be generated moderately to high
+	Recipe: advanced microchips, iron plate, efficiency module, copper plate
+ - New Item: Synthetic Materials
+	Recipe: plastic, iron plate
+ - New Item (building): Recycle Plant
+	Description: Turns items back into components
+				 Able to recycle: steel, iron, copper, plastics
+				 Not able to recycle microchips
+				 Will need two rows of slots for items recycled and for incoming items to be recycled
+				 (?)Certain intermediate items will need to be processed more than once to get the more base components - ie. pipes, batteries, gears, etc
+				 /or/ (?) produces unrefined piles of steel, iron, copper, and plastic which need to be sent to a furnace to be refined into the correct product.
+	Recipe: microchips, advanced microchips, blue chips, plastic, express splitters, express conveyor belts, iron plates, steel, fast inserters, smart inserters)
+ - New Item (building): Gas/Oil/Petroleum/Solid Fuel Generator
+	Recipe: Electro-Magnets, steel, gears, iron plates, circuits, advanced circuits, engines
+ - New Item: Electro-Magnets
+ - New Technology: PCC (Pollution Containment & Control)
+	- New Technology: Charcoal Filtering (also requires charcoal production)
+       - New technology: Air Scrubbing
+    - New technology: ESP (Electrostatic Precipitator)
+    - New technology: BagHouse
+    - New technology: Disposal Wells
+ - New technology: Electro-Magnets (allows sorting of ferrous metals, in aid to the recycling plants; requirement for electric motors and generators, and recycling plants)
+    - New technology: Recycling
+ - New technology: Synthetic Material Processing
+ - New technology: Charcoal Production
