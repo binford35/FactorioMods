@@ -1,4 +1,5 @@
 Get Git working [x] - MB & SW 4/14/2016
+Move Each TODO to their own folder
 
 -------------------------------------
 3D Printing Pack
