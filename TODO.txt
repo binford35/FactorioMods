@@ -81,32 +81,6 @@ Biological Enhancement Pack
 	Description: Equipable in the suit for battery performance, slightly less than the original battery MK2
 	
 -------------------------------------
-Enhanced Railroad Pack
--------------------------------------
-New Item: Raised Straight Rail
-New Item: Raised Ramp Rail
-	Description: for transition from regular rail to raised rail
-New Item: Raised Curved Rail
-New Item: Train Turntable
-	Description: To allow trains to drive onto and to either turn completely around, for facing back on the same track the other way or merge with another track at any possible angle.
-New Sound: Train horns
-New Item: (?) Train horn signs for automatic trains
-New Equipment: Train Transponder
-	Description: suit add-on that will act as a train so that when you walk onto the track, the trains will behave as if there is a train on the track
-New Item: Train crossing
-	Description: traditional train signal for vehicle crossing
-New Sound: Train Crossing
-New Item: Modular Train Car
-New Equipment (train): turret train car
-New Equipment (train): repair train car
-New Equipment (train): Track laying car
-New Item: Electric Train
-   Description: Need to add electric poles near the tracks
-   Recipe: same as regular train, but with batteries and electric engines
-New Item: Locomotive Mk2
-	Description: Same as regular train, but with coal car attached for increased fuel storage
-	
--------------------------------------
 Pollution Containment & Control Pack
 -------------------------------------
  - New Module: Pollution Capture 
