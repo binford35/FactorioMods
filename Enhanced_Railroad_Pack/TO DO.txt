@@ -1,0 +1,109 @@
+-------------------------------------
+Enhanced Railroad Pack
+-------------------------------------
+
+Items:
+
+	New Item: Raised Straight Rail (issue 2)
+	New Item: Raised Ramp Rail (issue 3)
+		Description: for transition from regular rail to raised rail
+		Recipe:  same as normal + extra steel (for raised supports)
+	New Item: Raised Curved Rail (issue 4)
+		Recipe:  same as normal + extra steel (for raised supports)
+	New Item: Train Turntable (issue 5)
+		Description: To allow trains to drive onto and to either turn completely around, for facing back on the same track the other way or merge with another track at any possible angle.
+	New Item: (?) Train horn signs (issue 6)
+	New Item: Train crossing (issue 7)
+		Description: traditional train signal for vehicle crossing
+	New Item: Modular Train Car (issue 8)
+	New Item: Electric Train (issue 9)
+	   Description: Need to add electric poles near the tracks
+	   Recipe: same as regular train, but with batteries and electric engines
+	New Item: Locomotive Mk2 (issue 10)
+		Description: Same as regular train, but with coal car attached for increased fuel storage
+	New Item: MagLev Train (issue 11)
+		Description: Needs maglev tracks to operate
+					 Recipe: Magnets, accumulators, steel, iron plates, advanced circuits, blue circuits
+	New Item: MagLev Straight Track (issue 12)
+		Recipe: Electro-Magnets, Iron Plates, Advanced Circuits, (?)
+	New Item: MagLev Curved Track (issue 13)
+		Recipe: Electro-Magnets, Iron Plates, Advanced Circuits, (?)
+	New Item: MagLev Raised Straight Track (issue 14)
+		Recipe: Electro-Magnets, Iron Plates, Advanced Circuits, (?) + extra steel (for raised supports)
+	New Item: MagLev Raised Curved Track (issue 15)
+		Recipe: Electro-Magnets, Iron Plates, Advanced Circuits, (?) + extra steel (for raised supports)
+	New Item: MagLev Ramp Track (issue 16)
+		Recipe: Electro-Magnets, Iron Plates, Advanced Circuits, (?) + extra steel (for raised supports)
+	New Item: Electric Rail Straight Track (issue 17)
+		Recipe: Same as regular tracks + electric poles
+	New Item: Electric Rail Curved Track (issue 18)
+		Recipe: Same as regular tracks + electric poles
+	New Item: Electric Rail Ramp Track (issue 19)
+		Recipe: Same as regular tracks + electric poles + extra steel (for raised supports)
+	New Item: Electric Rail Raised Straight Track (issue 20)
+		Recipe: Same as regular tracks + electric poles + extra steel (for raised supports)
+	New Item: Electric Rail Raised Curved Track (issue 21)
+		Recipe: Same as regular tracks + electric poles + extra steel (for raised supports)
+	New Item: Track laying car	(issue 24)
+	New Item: Train Control Tower (issue 26)
+		Description: Required to use the train automation system
+
+Equipment:		
+
+	New Equipment (train): turret train car (issue 22)
+	New Equipment (train): repair train car (issue 23)
+	New Equipment (train): Train Transmitter (issue 25)
+	New Equipment (suit): Train Scheduler Assistant (issue 27)
+	New Equipment (suit): Train Transponder (issue 28)
+		Description: suit add-on that will act as a train so that when you walk onto the track, the trains will behave as if there is a train on the track
+
+Sounds:
+		
+	New Sound: Train horns (issue 29)
+	New Sound: Train Crossing (issue 30)
+	New Sound: Electric Train (issue 31)
+	New Sound: MagLev Train (issue 32)
+	New Sound: Train Turntable (issue 33)
+	New Sound: Track Layer (issue 34)
+
+Technology:	
+	
+	New Technology: Automated Train Transmitters (issue 35)
+		Description: Allows creation of Train Transmitter and Train Scheduler Assistant (suit)
+	New Technology: Electric Trains
+		Allows: Electric Train, Electric Rail (issue 36)
+	New Technology: Mag-Lev Trains (issue 37)
+		Allows: Mag-Lev Train, Mag-Lev Rail
+		Requires: Magnets
+		
+Graphics:
+	Add graphics for Raised Straight Rail (issue 38)
+	Add graphics for Raised Ramp Rail (issue 39)
+	Add graphics for Raised Curved Rail (issue 40)
+	Add graphics for Train Turntable (issue 41)
+	Add graphics for Train horn signs (issue 42)
+	Add graphics for Train crossing (issue 43)
+	Add graphics for Modular Train Car (issue 44)
+	Add graphics for Electric Train (issue 45)
+	Add graphics for Locomotive Mk2 (issue 46)
+	Add graphics for MagLev Train (issue 47)
+	Add graphics for MagLev Straight Track (issue 48)
+	Add graphics for MagLev Curved Track (issue 49)
+	Add graphics for MagLev Raised Straight Track (issue 50)
+	Add graphics for MagLev Raised Curved Track (issue 51)
+	Add graphics for MagLev Ramp Track (issue 52)
+	Add graphics for Electric Rail Straight Track (issue 53)
+	Add graphics for Electric Rail Curved Track (issue 54)
+	Add graphics for Electric Rail Ramp Track (issue 55)
+	Add graphics for Electric Rail Raised Straight Track (issue 56)
+	Add graphics for Electric Rail Raised Curved Track (issue 57)
+	Add graphics for Track laying car (issue 58)
+	Add graphics for Train Control Tower (issue 59)
+	Add graphics for turret train car (issue 60)
+	Add graphics for repair train car (issue 61)
+	Add graphics for Train Transmitter (issue 62)
+	Add graphics for Train Scheduler Assistant (issue 63)
+	Add graphics for Train Transponder (issue 64)
+	Add graphics for Technology: Automated Train Transmitters (issue 65)
+	Add graphics for Technology: Electric Trains (issue 66)
+	Add graphics for Technology: Mag-Lev Trains (issue 67)
