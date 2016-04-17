@@ -8,8 +8,10 @@ data:extend(
     ingredients =
     {
       {"engine-unit", 20},
-      {"electronic-circuit", 10},
+      {"advanced-circuit", 5},
+	  {"processing-unit",5},
       {"steel-plate", 30}
+	  --{"magnets", 10}
     },
     result = "mag-lev-locomotive"
   },
