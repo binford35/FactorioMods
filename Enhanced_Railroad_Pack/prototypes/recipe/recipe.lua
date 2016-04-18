@@ -16,6 +16,18 @@ data:extend(
     result = "mag-lev-locomotive"
   },
 
+  {
+    type = "recipe",
+    name = "magnet",
+    category = "industrial-manufacturing",
+    enabled = false,
+    energy_required = 30,
+    ingredients =
+    {
+      {"copper-plate", 5}, {"copper-cable",10}, {"steel-plate", 2}
+    },
+    result = "magnet"
+  }
 
 --[[
   {

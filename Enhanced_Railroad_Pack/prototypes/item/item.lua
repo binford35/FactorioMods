@@ -10,6 +10,17 @@ data:extend(
     order = "a[train-system]-f[mag-lev-locomotive]",
     place_result = "mag-lev-locomotive",
     stack_size = 5
+  },
+  
+  {
+    type = "item",
+    name = "magnet",
+    icon = "__Enhanced_Railroad_Pack__/graphics/icons/magnet.png",
+	icon_size = 128,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "j[magnet]",
+    stack_size = 100
   }
   --[[
   ,

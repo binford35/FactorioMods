@@ -7,10 +7,10 @@ data:extend(
 	icon_size = 128,
     effects =
     {
-      --{
-        --type = "unlock-recipe",
-        --recipe = "magnets"
-      --},
+      {
+        type = "unlock-recipe",
+        recipe = "magnet"
+      },
     },
     unit =
     {
