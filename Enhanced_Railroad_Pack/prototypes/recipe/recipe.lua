@@ -13,14 +13,14 @@ data:extend(
 	  {"advanced-circuit", 10},
 	  {"processing-unit", 5},
       {"steel-plate", 30},
-	  {"magnet", 25},
+	  {"electromagnet", 25},
     },
     result = "mag-lev-locomotive"
   },
 
   {
     type = "recipe",
-    name = "magnet",
+    name = "electromagnet",
     category = "industrial-manufacturing",
     enabled = false,
     energy_required = 30,
@@ -28,7 +28,7 @@ data:extend(
     {
       {"copper-cable",10}, {"steel-plate", 2}
     },
-    result = "magnet"
+    result = "electromagnet"
   }
 
 --[[

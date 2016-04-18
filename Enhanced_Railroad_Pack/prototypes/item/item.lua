@@ -14,12 +14,12 @@ data:extend(
   
   {
     type = "item",
-    name = "magnet",
-    icon = "__Enhanced_Railroad_Pack__/graphics/icons/magnet.png",
+    name = "electromagnet",
+    icon = "__Enhanced_Railroad_Pack__/graphics/icons/electromagnet.png",
 	icon_size = 128,
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
-    order = "j[magnet]",
+    order = "j[electromagnet]",
     stack_size = 100
   }
   --[[

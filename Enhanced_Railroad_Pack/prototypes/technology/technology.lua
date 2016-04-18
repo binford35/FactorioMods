@@ -2,14 +2,14 @@ data:extend(
 {
   {
     type = "technology",
-    name = "magnets",
-    icon = "__Enhanced_Railroad_Pack__/graphics/technology/magnets.png",
-	icon_size = 128,
+    name = "electromagnets",
+    icon = "__Enhanced_Railroad_Pack__/graphics/technology/electromagnets.png",
+	icon_size = 256,
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "magnet"
+        recipe = "electromagnet"
       },
     },
     unit =
