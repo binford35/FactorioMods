@@ -22,7 +22,8 @@ data:extend(
       time = 5
     },
     order = "e-i"
-  }
+    }
+   }
   -- {
     -- type = "technology",
     -- name = "military",
