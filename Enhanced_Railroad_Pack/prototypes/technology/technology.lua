@@ -22,7 +22,7 @@ data:extend(
 	   },
       time = 5
     },
-    order = "e-i"
+    order = "e-a-i"
     
    }
   -- {
