@@ -6,19 +6,17 @@ data:extend(
     icon = "__Enhanced_Railroad_Pack__/graphics/technology/magnets.png",
     effects =
     {
-      {
+      --{
         --type = "unlock-recipe",
         --recipe = "magnets"
-      },
+      --},
     },
     unit =
     {
       count = 50,
       ingredients = {
-       {
 		 {"science-pack-1", 1},
          {"science-pack-2", 1}
-       },
 	   },
       time = 5
     },
