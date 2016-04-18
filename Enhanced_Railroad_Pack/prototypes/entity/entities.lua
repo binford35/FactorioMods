@@ -6214,7 +6214,7 @@ data:extend(
     name = "mag-lev-locomotive",
     icon = "__Enhanced_Railroad_Pack__/graphics/icons/mag-lev-locomotive.png",
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
-    minable = {mining_time = 1, result = "diesel-locomotive"},
+    minable = {mining_time = 1, result = "mag-lev-locomotive"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
     max_health = 1000,
     corpse = "medium-remnants",
@@ -6223,7 +6223,7 @@ data:extend(
     selection_box = {{-0.85, -2.6}, {0.9, 2.5}},
     drawing_box = {{-1, -4}, {1, 3}},
     weight = 2000,
-    max_speed = 1.2,
+    max_speed = 4.1,
     max_power = "600kW",
     braking_force = 10,
     friction_force = 0.0015,
@@ -6260,27 +6260,14 @@ data:extend(
         percent = 20
       }
     },
-    energy_source =
+	
+   energy_source =
     {
-      type = "burner",
-      effectivity = 1,
-      fuel_inventory_size = 3,
-      smoke =
-      {
-        {
-          name = "train-smoke",
-          deviation = {0.3, 0.3},
-          frequency = 100,
-          position = {0, 0},
-          starting_frame = 0,
-          starting_frame_deviation = 60,
-          height = 2,
-          height_deviation = 0.5,
-          starting_vertical_speed = 0.2,
-          starting_vertical_speed_deviation = 0.1,
-        }
-      }
+      type = "electric",
+      usage_priority = "primary-input",
+      emissions = 0.04 / 2.5
     },
+	energy_usage = "64kW",
     front_light =
     {
       {
@@ -6337,35 +6324,11 @@ data:extend(
       lines_per_file = 8,
       shift = {1.0, -0.45}
     },
-    rail_category = "regular",
+    rail_category = {"mag-lev", "mag-lev-raised"},
 
     stop_trigger =
     {
-      -- left side
-      {
-        type = "create-smoke",
-        repeat_count = 125,
-        entity_name = "smoke-train-stop",
-        initial_height = 0,
-        -- smoke goes to the left
-        speed = {-0.03, 0},
-        speed_multiplier = 0.75,
-        speed_multiplier_deviation = 1.1,
-        offset_deviation = {{-0.75, -2.7}, {-0.3, 2.7}}
-      },
-      -- right side
-      {
-        type = "create-smoke",
-        repeat_count = 125,
-        entity_name = "smoke-train-stop",
-        initial_height = 0,
-        -- smoke goes to the right
-        speed = {0.03, 0},
-        speed_multiplier = 0.75,
-        speed_multiplier_deviation = 1.1,
-        offset_deviation = {{0.3, -2.7}, {0.75, 2.7}}
-      },
-      {
+	  {
         type = "play-sound",
         sound =
         {
@@ -6376,8 +6339,7 @@ data:extend(
         }
       },
     },
-    drive_over_tie_trigger = drive_over_tie(),
-    tie_distance = 50,
+    
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound =
     {
@@ -6392,6 +6354,9 @@ data:extend(
     close_sound = { filename = "__base__/sound/car-door-close.ogg", volume = 0.7 },
     sound_minimum_speed = 0.5;
   },
+    
+  --[[
+  --Assembling Machine 2
   {
       type = "assembling-machine",
     name = "assembling-machine-2",
@@ -6475,6 +6440,11 @@ data:extend(
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
+  
+
+  
+  --Assembling Machine 3
+  
   {
     type = "assembling-machine",
     name = "assembling-machine-3",
@@ -6558,6 +6528,11 @@ data:extend(
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   }  
-  
+  --]]
 }
 )
+
+--If only changing one line modify the base item.
+data.raw["assembling-machine"]["assembling-machine-2"].crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid", "industrial-manufacturing"}
+data.raw["assembling-machine"]["assembling-machine-3"].crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid", "industrial-manufacturing"}
+

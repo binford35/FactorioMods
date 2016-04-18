@@ -4,14 +4,16 @@ data:extend(
 	{
     type = "recipe",
     name = "mag-lev-locomotive",
+	category = "industrial-manufacturing",
     enabled = true,
     ingredients =
     {
-      {"engine-unit", 20},
-      {"advanced-circuit", 5},
-	  {"processing-unit",5},
-      {"steel-plate", 30}
-	  --{"magnets", 10}
+      {"engine-unit", 20}, --Electric Engine
+      {"electronic-circuit", 20},
+	  {"advanced-circuit", 10},
+	  {"processing-unit", 5},
+      {"steel-plate", 30},
+	  {"magnet", 25},
     },
     result = "mag-lev-locomotive"
   },
@@ -24,7 +26,7 @@ data:extend(
     energy_required = 30,
     ingredients =
     {
-      {"copper-plate", 5}, {"copper-cable",10}, {"steel-plate", 2}
+      {"copper-cable",10}, {"steel-plate", 2}
     },
     result = "magnet"
   }
