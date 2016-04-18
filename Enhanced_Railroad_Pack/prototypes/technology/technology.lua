@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "technology",
-    name = "steel-processing",
+    name = "magnets",
     icon = "__Enhanced_Railroad_Pack__/graphics/technology/magnets.png",
     effects =
     {
@@ -13,7 +13,7 @@ data:extend(
     },
     unit =
     {
-      count = 20,
+      count = 50,
       ingredients = {
        {
 		 {"science-pack-1", 1},
