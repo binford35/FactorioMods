@@ -11,7 +11,7 @@ echo Which File Mod would you like to zip?
 echo 1. 3D Printing Pack
 echo 2. Biological Enhancement Pack
 echo 3. Enhanced Railroad Pack
-echo 4. Pollution Containment & Control Pack
+echo 4. Pollution Containment And Control Pack
 
 set INPUT=
 set /P INPUT=Type input: %=%
@@ -85,14 +85,14 @@ goto :zipFile
 
 cls 
 echo Looking up Version Info...
-FOR /F delims^=^"^ tokens^=4 %%a IN ('FINDSTR /L /I "version" Pollution_Containment_&_Control_Pack\info.json') do set "inputString=%%a"
+FOR /F delims^=^"^ tokens^=4 %%a IN ('FINDSTR /L /I "version" Pollution_Containment_And_Control_Pack\info.json') do set "inputString=%%a"
 
 echo Version is: %inputString%
 
 ENDLOCAL
 
-set "zipName=Pollution_Containment_&_Control_Pack_%inputString%.zip"
-set "source=Pollution_Containment_&_Control_Pack"
+set "zipName=Pollution_Containment_And_Control_Pack_%inputString%.zip"
+set "source=Pollution_Containment_And_Control_Pack"
 
 goto :zipFile 
 
