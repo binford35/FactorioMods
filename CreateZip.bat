@@ -107,4 +107,3 @@ set zipPath=%UserProfile%\AppData\Roaming\Factorio\mods\%zipName%
 7z a %zipPath% %source%
 
 
-PAUSE
