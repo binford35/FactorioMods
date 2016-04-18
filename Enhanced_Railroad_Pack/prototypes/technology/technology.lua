@@ -18,7 +18,7 @@ data:extend(
 		 {"science-pack-1", 1},
          {"science-pack-2", 1}
 	   },
-      time = 5
+      time = 60
     },
     order = "e-a-i"
     
