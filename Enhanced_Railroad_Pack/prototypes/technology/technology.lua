@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "magnets",
     icon = "__Enhanced_Railroad_Pack__/graphics/technology/magnets.png",
+	icon_size = 128,
     effects =
     {
       --{
