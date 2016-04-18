@@ -1,0 +1,43 @@
+-------------------------------------
+Biological Enhancement Pack
+-------------------------------------
+
+- New item (building): Biological Vat
+	Description: produces Bio-Gas and solid Bio-Fuel
+    Recipe: storage tanks(2), iron plates(25), boiler(2), pipes(10), microchips(5)
+- New item (building): Eviscerator
+	Description: chops up corpses and wood to create biomass
+	Recipe: storage tank(1), gears(5), steel(20), iron plates(40), pipes(5), microchips(5)
+- New item (building): Gas Boilers
+	Description: Can take petroleum gas or bio-gas to heat water
+	Recipe: storage tank(1), gears(4), pipes(5)
+- New item (building): Bio-Chemical Plant
+	Description: Creates Bio-Batteries, (?)biological warfare
+	Recipe: storage tanks(2), pipes(10), microchips(5), advanced microchips(5)
+- New item (building): Gas Furnace
+	Description: A furnace that is powered by gas
+	Recipe: storage tank(1), pipes(5), steel(20), iron plates(40), copper plates(5), microchip(2)
+- New Technology: Bio-Fuel Production
+	Allows: Eviscerator, Biomass, Bio-Fuel, Biological Vat)
+- New Technology: Bio-Battery
+	Allows: Bio-Chemical Plant, Bacterial Battery
+- New Technology: Advanced Bio-Fuel Processing
+	Description: New process for increased production of Bio-Fuel and Biomass in the Biological Vat
+- New Technology: Gas Power/Heating Systems
+	Allows: Gas Boiler, Gas Furnace
+- New Item: Bio-Gas
+	Description: Produced from biological vat, can be used to power gas-boiler
+- New Item: Solid Bio-Fuel
+	Description: Produced from biological vat
+- New Item: Biter Corpse
+	Description: When biters are killed, they should produce a corpse that will be collectable
+	Stack Size: 30
+- New Item: Bio-Battery
+	Description: Same as the battery, can be used in all recipes needing batteries
+- New Item: Biomass
+	Description: Created in the Eviscerator by either eviscerating wood or biter corpses
+				 Used as an intermediate product for Bio-Fuel/Bio-Battery production
+- New Equipment: Bio-Battery MK1
+	Description: Equipable in the suit for battery performance, slightly less than the original battery MK1
+- New Equipment: Bio-Battery MK2
+	Description: Equipable in the suit for battery performance, slightly less than the original battery MK2
