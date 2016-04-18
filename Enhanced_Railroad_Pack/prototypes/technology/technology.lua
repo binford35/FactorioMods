@@ -7,8 +7,8 @@ data:extend(
     effects =
     {
       {
-        type = "unlock-recipe",
-        recipe = "magnets"
+        --type = "unlock-recipe",
+        --recipe = "magnets"
       },
     },
     unit =
