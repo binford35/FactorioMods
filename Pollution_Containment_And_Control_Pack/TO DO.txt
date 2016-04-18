@@ -61,14 +61,19 @@ Pollution Containment & Control Pack
 	Recipe: microchips, advanced microchips, blue chips, plastic, express splitters, express conveyor belts, iron plates, steel, fast inserters, smart inserters)
  - New Item (building): Gas/Oil/Petroleum/Solid Fuel Generator
 	Recipe: Electro-Magnets, steel, gears, iron plates, circuits, advanced circuits, engines
- - New Item: Electro-Magnets
- - New Technology: PCC (Pollution Containment & Control)
-	- New Technology: Charcoal Filtering (also requires charcoal production)
-       - New technology: Air Scrubbing
-    - New technology: ESP (Electrostatic Precipitator)
-    - New technology: BagHouse
-    - New technology: Disposal Wells
- - New technology: Electro-Magnets (allows sorting of ferrous metals, in aid to the recycling plants; requirement for electric motors and generators, and recycling plants)
-    - New technology: Recycling
- - New technology: Synthetic Material Processing
- - New technology: Charcoal Production
+[x] - New Item: Electro-Magnets
+ 
+ 
+ -----------------
+ New Technologies
+ -----------------
+	- New Technology: PCC (Pollution Containment & Control)
+[x]	- New Technology: Charcoal Filtering (also requires charcoal production)
+[x]       - New technology: Air Scrubbing
+[x]    - New technology: ESP (Electrostatic Precipitator)
+[x]    - New technology: BagHouse
+[x]    - New technology: Disposal Wells
+[x] - New technology: Electro-Magnets (allows sorting of ferrous metals, in aid to the recycling plants; requirement for electric motors and generators, and recycling plants)
+[x]    - New technology: Recycling
+[x] - New technology: Synthetic Material Processing
+[x] - New technology: Charcoal Production
