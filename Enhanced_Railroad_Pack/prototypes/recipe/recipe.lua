@@ -4,7 +4,7 @@ data:extend(
 	{
     type = "recipe",
     name = "mag-lev-locomotive",
-	category = "industrial-manufacturing",
+	--category = "industrial-manufacturing",
     enabled = true,
     ingredients =
     {
