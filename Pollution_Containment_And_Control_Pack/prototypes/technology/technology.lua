@@ -1,5 +1,30 @@
 data:extend(
 {
+	{
+    type = "technology",
+    name = "pollution_containment_and_control",
+    icon = "__Pollution_Containment_And_Control_Pack__/graphics/technology/pollution_containment_and_control.png",
+	icon_size = 256,
+    effects =
+    {
+     -- {
+        --type = "unlock-recipe",
+        --recipe = "pollution_containment_module"
+     -- }
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+		 {"science-pack-1", 1},
+         {"science-pack-2", 1}
+	   },
+      time = 60
+    },
+    order = "e-a-l"
+    
+   },
+   
   {
     type = "technology",
     name = "air_scubber",
@@ -10,8 +35,9 @@ data:extend(
      -- {
         --type = "unlock-recipe",
         --recipe = "air_scrubber"
-     -- },
+     -- }
     },
+	prerequisites = {"pollution_containment_and_control"},
     unit =
     {
       count = 50,
@@ -35,8 +61,9 @@ data:extend(
       --{
         --type = "unlock-recipe",
         --recipe = "baghouse"
-      --},
+      --}
     },
+	prerequisites = {"pollution_containment_and_control"},
     unit =
     {
       count = 50,
@@ -60,8 +87,9 @@ data:extend(
       --{
         --type = "unlock-recipe",
         --recipe = "charcoal_filter"
-      --},
+      --}
     },
+	prerequisites = {"pollution_containment_and_control"},
     unit =
     {
       count = 50,
@@ -85,8 +113,9 @@ data:extend(
       --{
         --type = "unlock-recipe",
         --recipe = "charcoal"
-      --},
+      --}
     },
+	prerequisites = {"pollution_containment_and_control"},
     unit =
     {
       count = 50,
@@ -110,8 +139,9 @@ data:extend(
       --{
         --type = "unlock-recipe",
         --recipe = "disposal_well"
-      --},
+      --}
     },
+	prerequisites = {"pollution_containment_and_control"},
     unit =
     {
       count = 50,
@@ -135,8 +165,9 @@ data:extend(
       --{
         --type = "unlock-recipe",
         --recipe = "electro-static_precipitator"
-      --},
+      --}
     },
+	prerequisites = {"pollution_containment_and_control"},
     unit =
     {
       count = 50,
@@ -160,8 +191,9 @@ data:extend(
       --{
         --type = "unlock-recipe",
         --recipe = "recycle_plant"
-      --},
+      --}
     },
+	prerequisites = {"pollution_containment_and_control"},
     unit =
     {
       count = 50,
@@ -186,7 +218,12 @@ data:extend(
         --type = "unlock-recipe",
         --recipe = "synthetic_filter"
       --},
+	  -- {
+		-- type = "unlock-recipe",
+		-- recipe = air_filter
+	  -- }
     },
+	prerequisites = {"pollution_containment_and_control"},
     unit =
     {
       count = 50,
