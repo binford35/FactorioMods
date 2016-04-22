@@ -55,8 +55,48 @@ data:extend(
 	energy_source =     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.04 / 2.5
+      emissions = 0.04 / 2.5,
+	  
+	  smoke =
+	  {
+		{
+          name = "smoke-binford",
+		  filename = "__Ore_Processing_Expansion_Pack__/graphics/entity/smoke-binford/smoke-binford.png",
+          deviation = {0.3, 0.3},
+          frequency = 100,
+          position = {0, 0},
+          starting_frame = 0,
+          starting_frame_deviation = 60,
+          height = 2,
+          height_deviation = 0.5,
+          starting_vertical_speed = 0.2,
+          starting_vertical_speed_deviation = 0.1,
+        }
+      },
+	  
+	  
+	  
     },
+	animation =
+    {
+      filename = "__Ore_Processing_Expansion_Pack__/graphics/entity/blast_furnace/blast_furnace_fullres.png",
+      priority = "high",
+      width = 1632,
+      height = 947,
+      frame_count = 1,
+      shift = {1.21875, -0.125}
+    },
+	idle_animation =
+    {
+      filename = "__Ore_Processing_Expansion_Pack__/graphics/entity/blast_furnace/blast_furnace_fullres.png",
+      priority = "high",
+      width = 1632,
+      height = 947,
+      frame_count = 1,
+      shift = {1.21875, -0.125}
+    },
+	
+	
     pictures = {
         filename = "__Ore_Processing_Expansion_Pack__/graphics/entity/blast_furnace/blast_furnace.png",
         priority = "high",
