@@ -1,35 +1,108 @@
 -------------------------------------
 3D Printing Pack
 -------------------------------------
+Items:
 
-- New technology: 3D printing (requires lasers)
-- New item (building): Material Milling Plant 
-	Description: mills iron, copper, steel, and plastic into powders for use in the 3d Manufacturing plant
-	Recipe: stone bricks(5), iron plates(50), pipes(3), gears(5), steel(25), express conveyor belts(5)
-- New item: iron powder
-	subgroup: intermediate-product
-- New item: copper powder
-	subgroup: intermediate-product
-- New item: plastic powder
-	subgroup: intermediate-product
-- New item (building): Powder hopper
-	Description: similar to storage tanks, but hold powders instead of liquids
-- New item: powder conveyer belt
-- New item: fast powder conveyer belt
-- New item: express powder conveyer belt
-- New item (building): 3D Manufacturing plant
-	Description: Can build most items out of iron, copper, steel, and plastic; can't build anything that requires a chemical process without extra ingredients; 
-				 (?)May be able to build all prerequisite items within a factory and then build desired item
-				 (?)/or/ will just take as long as it would to build each subsequent item, plus the desired item.
-				 Manufacturing will be slower than the regular factories as each layer is built up slowly. Speed modules should help.
-				 Higher energy consumption vs normal factories.
-- New Technology: Pneumatic vacuum conveying systems
+[]  - New item (building): Material Milling Plant 
+[]		item entry
+		Description: mills iron, copper, steel, and plastic into powders for use in the 3d Manufacturing plant
+[]		Recipe: stone bricks(5), iron plates(50), pipes(3), gears(5), steel(25), express conveyor belts(5)
+
+[]  - New item: iron powder
+		subgroup: intermediate-product
+
+[]  - New item: copper powder
+		subgroup: intermediate-product
+		
+[]  - New item: plastic spool
+		subgroup: intermediate-product
+
+[]  - New item: steel powder
+		subgroup: intermediate-product
+		
+[]  - New item (building): Powder hopper
+[]		item entry
+		Description: similar to storage tanks, but hold powders instead of liquids
+[]		Recipe: (Same as storage tanks)
+		
+[]  - New item (building): 3D Manufacturing plant
+[]		item entry
+		Description: Can build most items out of iron, copper, steel, and plastic; can't build anything that requires a chemical process without extra ingredients; 
+					(?)May be able to build all prerequisite items within a factory and then build desired item
+					(?)/or/ will just take as long as it would to build each subsequent item, plus the desired item.
+					Manufacturing will be slower than the regular factories as each layer is built up slowly. Speed modules should help.
+					Higher energy consumption vs normal factories.
+[]		Recipe:
+					
+[]  - New item: pneumatic conveyance pipes
+		Description: Will be faster than conveyor belts;
+					 Should be slower, but similar to water/oil pipes
+					 
+[?] - New building: pneumatic air pump (optional)
+		Description: adds pressure to lines so that each pneumatic line needs an airpump and blower in order to work.
+		
+[?] - New building: pneumatic blower package (optional)
+		Description: blows pressured air from lines so that each pneumatic line needs an airpump and blower in order to work.
+
+Sounds:
+[] Material Milling Plant
+[] processed
+
+[] powder transport belt
+[] processed
+
+[] fast powder transport belt
+[] processed
+
+[] express powder transport belt
+[] processed
+
+[] 3D Manufacturing Plant
+[] processed
+
+[] pneumatic air pump
+[] processed
+
+[] pneumatic blower package
+[] processed
+
+
+
+Technology:
+[x] 3D printing (requires lasers)
+	Description: Use grains of preprocessed base materials and a laser print head to build products.
+	Requires: Lasers
+	Allows: Material Milling Plant, 3d Manufacturing Plant
+
+[x] Pneumatic vacuum conveying systems
 	Description: allows building of pneumatic transport of powders
-- New item: pneumatic conveyance pipes
-	Description: Will be faster than conveyor belts;
-				 Should be slower, but similar to water/oil pipes
-- (?)New building: pneumatic air pump (optional)
-	Description: adds pressure to lines so that each pneumatic line needs an airpump and blower in order to work.
-- (?)New building: pneumatic blower package (optional)
-    Description: blows pressured air from lines so that each pneumatic line needs an airpump and blower in order to work.
-	
+	Description: New system for faster moving of powder materials using pressured dry material pipes.
+	Requires: 3d printing
+	Allows: powder hopper, pneumatic conveyance pipes, pneumatic air pump, pneumatic blower package
+
+
+Graphics:
+
+[x] Technology: 3D Printing
+
+[x] Technology: Pneumatic Vacuum Conveying Systems
+
+[x] Icon: Material Milling Plant
+[p] Building: Material Milling Plant
+
+[x] Icon: Iron Powder
+
+[x] Icon: Copper Powder
+
+[x] Icon: Steel Powder
+
+[x] Icon: Plastic Spool
+
+[] Icon: Powder Hopper
+[p] Building: Powder Hopper
+
+[modify game pipes] Icon: Pneumatic pipe
+[modify game pipes] Building: Pneumatic pipe
+
+[x] Icon: 3D Manufacturing Plant
+[p] Building: 3D Manufacturing Plant

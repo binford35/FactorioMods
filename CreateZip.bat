@@ -12,6 +12,7 @@ echo 1. 3D Printing Pack
 echo 2. Biological Enhancement Pack
 echo 3. Enhanced Railroad Pack
 echo 4. Pollution Containment And Control Pack
+echo 5. Ore Processing Expansion Pack
 
 set INPUT=
 set /P INPUT=Type input: %=%
@@ -21,6 +22,7 @@ If %INPUT%==1 goto 3DP
 If %INPUT%==2 goto BEP
 If %INPUT%==3 goto ERP
 If %INPUT%==4 goto PCCP
+If %INPUT%==5 goto OPE
 
 rem If they gave us a bad input return them to the question
 echo Incorrect Input! Please Try Again:
@@ -96,6 +98,20 @@ set "source=Pollution_Containment_And_Control_Pack"
 
 goto :zipFile 
 
+:OPE
+
+cls 
+echo Looking up Version Info...
+FOR /F delims^=^"^ tokens^=4 %%a IN ('FINDSTR /L /I "version" Ore_Processing_Expansion_Pack\info.json') do set "inputString=%%a"
+
+echo Version is: %inputString%
+
+ENDLOCAL
+
+set "zipName=Ore_Processing_Expansion_Pack_%inputString%.zip"
+set "source=Ore_Processing_Expansion_Pack"
+
+goto :zipFile 
 
 :zipFile
 

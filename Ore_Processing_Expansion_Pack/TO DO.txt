@@ -3,58 +3,66 @@ Ore Processing Expansion Pack
 -------------------------------------
 
 Items:
-[] - New building: Ore Crusher
-		Description: Takes in raw ores (iron and copper) and crushes them into smaller particles of ore. One ore should produce two piles of crushed ore.
-[]		Recipe: Iron plates (for structure), steel plates (for crushers), iron gears (for the crusher motion), circuits (for the electronics)
 
-[] - New item(ore): Crushed Iron Ore
+[] - New building: Ore Crusher
+[x]		item entry
+		Description: Takes in raw ores (iron and copper) and crushes them into smaller particles of ore. One ore should produce two piles of crushed ore.
+[x]		Recipe: Iron plates (for structure), steel plates (for crushers), iron gears (for the crusher motion), circuits (for the electronics)
+
+[x] - New item(ore): Crushed Iron Ore
 		Description: Iron ore that has been processed through the Ore Crusher. Will yield one iron plate in a furnace.
 		
-[] - New item(ore): Crushed Copper Ore
+[x] - New item(ore): Crushed Copper Ore
 		Description: Copper ore that has been processed through the Ore Crusher. Will yield one copper plate in a furnace.
 		
 [] - New building: Ore Milling Machine
+[x]		item entry
 		Description: Crushed ore or coke is fed into this machine to reduce it into piles of unrefined ore dust (copper or iron) or Coke Dust which can be further processed. This ore dust cannot be smelted. Produces 2 dust per crushed ore pile. 
-[]		Recipe: stone (for the milling stones), iron plates (for structure), iron gears (for milling wheels), transport belts (to convey the material), advanced circuits (for electronics)
+[x]		Recipe: stone (for the milling stones), iron plates (for structure), iron gears (for milling wheels), transport belts (to convey the material), advanced circuits (for electronics)
 
-[] - New item (ore): Iron Ore Dust
+[x] - New item (ore): Iron Ore Dust
 		Description: Iron ore that has been processed through the Ore Milling Machine
 		
-[] - New item (ore): Copper Ore Dust
+[x] - New item (ore): Copper Ore Dust
 		Description: Copper Ore that has been processed through the Ore Milling Machine
 		
 [] - New building: Froth Flotation Plant
+[]		item entry
 		Description: Copper Ore Dust and Water are fed into this plant which uses the froth flotation method to further refinement of Copper. The result of this is Refined Copper Ore Dust. For each Copper or Dust, two Refined Copper Ore Dust are created.
 []		Recipe: tanks (for the water and slurry storage), pipes (for routing water and slurry), furnace (for the dewatering of the ore mixtures), transport belts(to move materials), steel (for structure), advanced circuits (for electronics)
 	
-[] - New item (ore): Refined Copper Ore Dust
+[x] - New item (ore): Refined Copper Ore Dust
 		Description: Can be sent to furnace to smelt into Copper Plates.
 
 [] - New building: Coke Oven
+[]		item entry
 		Description: Burns coal to produce coke.
 []		Recipe: iron plates (for furnace), circuits (for electronics), pipes (for pumping out air)
 
-[] - New item: Coke
+[x] - New item: Coke
 		Description: Used in the process of iron refining
 		
-[] - New item: Coke Dust
+[x] - New item: Coke Dust
 		Description: Used in the Blast Furnace to create iron ore. Made by running coke through the Ore Milling Machine. One Coke will produce two Coke Dust.
 
 [] - New building: Blast Furnace
+[]		item entry
 		Description: Coke Dust and Iron Ore Dust are fed into this furnace and will produce Iron Plates or Pig Iron Pellets. One Coke Dust and One Iron Dust produce one Iron Plate or Pig Iron Pellets.
 []		Recipe: Stone Brick (for the furnace lining), Pipe (to transport the ore mixture to the furnace), steel furnace (for the furnace), advanced circuits (for electronics), processing unit (for electronics)
 
-[] - New item: Pig Iron Pellets
+[x] - New item: Pig Iron Pellets
 		Description: Used in the process of Advanced Steel Processing.
 		
 [] - New Building: Oxygen Plant
+[]		item entry
 		Description: Pulls atmospheric gases into a series of filters and compressors to extract Oxygen from the air.
 []		Recipe: electric engine unit (for compressor), iron plates (for the filters), pipes (for transporting the air), steel plates (for the structure), advanced circuits (for electronics), processing unit (for electronics)
 	
-[] - New Item: Oxygen Gas
+[] - New Fluid/Gas: Oxygen Gas
 		Description: Created in the Oxygen Plant. Used in the Oxygen Injected Furnace for making steel.
 
 [] - New Building: Oxygen Injected Furnace
+[]		item entry
 		Description: Melts down Pig Iron Pellets into a furnace and injects pure Oxygen into the mixture to create molten steel, the steel is then cast into plates. One set of Pig Iron Pellets and 5 units of Oxygen will produce 1 steel plate.
 []		Recipe: Blast Furnace (for the furnace), storage tank (for the oxygen mixture storage), electric engine unit (for compressing and injecting the gas), steel plates (for structure)
 		
@@ -64,31 +72,42 @@ Equipment:
 
 
 Sounds:
-[] - Ore Crusher sound
-[] - Ore Milling Machine sound
-[] - Froth Flotation Plant sound
-[] - Blast Furnace sound
+
+[x] - Ore Crusher sound
+[]	processed
+
+[x] - Ore Milling Machine sound
+[]	processed
+
+[x] - Froth Flotation Plant sound
+[]	processed
+
+[x] - Blast Furnace sound
+[]	processed
+
 [] - Oxygen Plant sound
+[]	processed
 
 
 Technology:	
-[] - New Technology: Ore Processing I
+
+[x] - New Technology: Ore Processing I
 		Description: Allows further processing of ore to increase yield from ore desposits.
 		Allows: Ore Crusher
 
-[] - New Technology: Ore Processing II
+[x] - New Technology: Ore Processing II
 		Description: Allows further processing of ore to increase yield from ore desposits.
 		Allows: Ore Milling Machine, Froth Flotation Plant
 		Requires: Ore Processing I
 		
-[] - New Technology: Ore Processing III
+[x] - New Technology: Ore Processing III
 		DescriptionL Allows further processing of ore to increase yield from ore desposits.
 		Allows: Coke Oven, Blast Furnace
 		Requires: Ore Processing II
 		
-[] - New Technology: Advanced Steel Processing
+[x] - New Technology: Advanced Steel Processing
 		Description: Allows use of Oxygen Injected Furnace which takes Pig Iron Pellets and turns them into steel.
-		Allows: Pig Iron Pellets, Oxygen Injected Furnace, Oxygen Plant, Oxygen Gas
+		Allows: Pig Iron Pellets, Oxygen Injected Furnace, Oxygen Plant
 		
 Graphics:
 
@@ -96,26 +115,26 @@ Graphics:
 [x] - Technology: Ore Processing II
 [x] - Technology: Ore Processing III
 [x] - Technology: Advanced Steel Processing
-[] - Item: Ore Crusher
+[x] - Item: Ore Crusher
 [] - Building: Ore Crusher
-[] - Item: Crushed Iron Ore
-[] - Item: Crushed Copper Ore
-[] - Item: Ore Milling Machine
+[x] - Item: Crushed Iron Ore
+[x] - Item: Crushed Copper Ore
+[x] - Item: Ore Milling Machine
 [] - Building: Ore Milling Machine
-[] - Item: Iron Ore Dust
-[] - Item: Copper Ore Dust
+[x] - Item: Iron Ore Dust
+[x] - Item: Copper Ore Dust
 [] - Item: Froth Flotation Plant
 [] - Building: Froth Flotation Plant
-[] - Item: Refined Copper Ore Dust
+[x] - Item: Refined Copper Ore Dust
 [] - Item: Coke Oven
 [] - Building: Coke Oven
-[] - Item: Coke
-[] - Item: Coke Dust
+[x] - Item: Coke
+[x] - Item: Coke Dust
 [] - Item: Blast Furnace
 [] - Building: Blast Furnace
-[] - Item: Pig Iron Pellets
+[x] - Item: Pig Iron Pellets
 [] - Item: Oxygen Plant
 [] - Building: Oxygen Plant
-[] - Item: Oxygen Gas
+[x] - Item: Oxygen Gas
 [] - Item: Oxygen Injected Furnace
 [] - Building: Oxygen Injected Furnace
